@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Resume">
+        <meta name="Author" content="Connor Ingersoll">
+        <title>
+            Connor Ingersoll's Resume
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway:ital@1&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/33e7bc3f5b.js" crossorigin="anonymous"></script>
+        <link href="CSS/normalize.css" rel="stylesheet" type="text/css">
+        <link href="CSS/Styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav class="this">
+        <header class="menu">
+            <ul>
+                <li>
+                    <a href="Index.html" style="text-decoration: none;">Home</a>
+                </li>
+                <li>
+                    <a href="Contact.html" style="text-decoration: none;">Contact Me!</a>
+                </li>
+            </ul>
+        </header>
+        <div class="contact">
+            <form class="contactsss">
+                <div class="fnam">
+                <input type="text" name="firstname" placeholder="First Name">
+                </div>
+                <div class="lnam">
+                <input type="text" name="lastname" placeholder="Last Name">
+                </div>
+                <div class="phone">
+                <input type="tel" name="phone" placeholder="Phone">
+                </div>
+                <div class="mess">
+                <textarea name="question" placeholder="Message Here"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </nav>
+    </body>
+</html>
